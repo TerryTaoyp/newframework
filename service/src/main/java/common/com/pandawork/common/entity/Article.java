@@ -18,9 +18,9 @@ public class Article {
     @Column(name = "plate_id")
     private int plateid;
     @Column(name = "forum_id")
-    private int forumId;
-
-    private String article;
+    private int forumid;
+    @Column(name = "article_id")
+    private int articleid;
 
     public int getId() {
         return id;
@@ -46,19 +46,19 @@ public class Article {
         this.plateid = plateid;
     }
 
-    public int getForumId() {
-        return forumId;
+    public int getForumid() {
+        return forumid;
     }
 
-    public void setForumId(int forumId) {
-        this.forumId = forumId;
+    public void setForumid(int forumid) {
+        this.forumid = forumid;
     }
 
-    public String getArticle() {
-        return article;
+    public int getArticleid() {
+        return articleid;
     }
 
-    public void setArticle(String article) {
-        this.article = article;
+    public void setArticleid(int articleid) {
+        this.articleid = articleid;
     }
 }

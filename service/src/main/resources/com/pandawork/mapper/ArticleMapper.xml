@@ -4,8 +4,48 @@
 
 <mapper namespace="com.pandawork.mapper.ArticleMapper">
     <insert id="newArticle">
-        INSERT INTO t_article(user_id,plate_id,forum_id,article)
-        VALUES (#{aticle.userid,},#{article.plateid},#{article.forumid},#{article.article})
+        INSERT INTO t_article(user_id,plate_id,forum_id,article_id)
+        VALUES (#{aticle.userid},#{article.plateid},#{article.forumid},#{article.articleid})
     </insert>
-    <insert id=""></insert>
+    <delete id="delById">
+        DELETE FROM `t_article`
+        WHERE `id` = #{id}
+    </delete>
+    <update id="update">
+        UPDATE `t_article`
+        SET
+              `user_id` = #{article.userid},
+              `plate_id` = #{article.palteid},
+              `forum_id` = #{article.forumid},
+              `article_id` = #{article.articleid}
+        WHERE `id` = #{article.id}
+    </update>
+    <select id="queryById" resultMap="pw.Article">
+        SELECT *
+        FROM `t_article`
+        WHERE `id` = #{id}
+    </select>
+    <select id="queryByPlate" resultMap="pw.Article">
+        SELECT *
+        FROM `t_article`
+        WHERE `plate_id` = #{plateid}
+    </select>
+    <select id="queryByForum" resultMap="pw.Article">
+        SELECT *
+        FROM `t_article`
+        WHERE `forum_id` = #{forumid}
+    </select>
+    <select id="queryByArticle" resultMap="pw.Article">
+        SELECT *
+        FROM `t_article`
+        WHERE `article_id` = #{articleid}
+    </select>
+    <select id="listAll" resultMap="pw.Article">
+        SELECT `id`,`user_id`,`plate_id`,`forum_id`,`article_id`
+        FROM `t_article`
+    </select>
+    <select id="countAll" resultMap="int">
+        SELECT COUNT(1)
+        FROM `t_article`
+    </select>
 </mapper>
