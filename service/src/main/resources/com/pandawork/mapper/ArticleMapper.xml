@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pandawork.mapper.ArticleMapper">
+    <insert id="newArticle">
+        INSERT INTO t_article(user_id,plate_id,forum_id,article)
+        VALUES (#{aticle.userid,},#{article.plateid},#{article.forumid},#{article.article})
+    </insert>
+</mapper>
