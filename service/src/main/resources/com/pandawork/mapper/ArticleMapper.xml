@@ -7,4 +7,5 @@
         INSERT INTO t_article(user_id,plate_id,forum_id,article)
         VALUES (#{aticle.userid,},#{article.plateid},#{article.forumid},#{article.article})
     </insert>
+    <insert id=""></insert>
 </mapper>
