@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09ed458-ffbe-4e47-a016-ab51868611da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Article.java" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleMapper.java" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/ArticleMapper.xml" afterPath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/ArticleMapper.xml" />
-    </list>
+    <list default="true" id="f09ed458-ffbe-4e47-a016-ab51868611da" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
@@ -1175,7 +1169,7 @@
       <workItem from="1492074799334" duration="5425000" />
       <workItem from="1492154617457" duration="171000" />
       <workItem from="1492155611919" duration="2585000" />
-      <workItem from="1492172574680" duration="2835000" />
+      <workItem from="1492172574680" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 0.05">
       <created>1491740777555</created>
@@ -1198,7 +1192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492154781265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="陶永攀">
+      <created>1492176191979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492176191979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1234,7 +1235,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69320000" />
+    <option name="totallyTimeSpent" value="69367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
