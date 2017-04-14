@@ -2,32 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09ed458-ffbe-4e47-a016-ab51868611da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/ArticleDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Discuss.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Forum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Myself.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Plate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Discuss.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ForumMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Myself.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/PlateMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/com/pandawork/common/entity/User.class" afterPath="$PROJECT_DIR$/service/target/classes/com/pandawork/common/entity/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/com/pandawork/common/utils/NFException.class" afterPath="$PROJECT_DIR$/service/target/classes/com/pandawork/common/utils/NFException.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/com/pandawork/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/service/target/classes/com/pandawork/service/impl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/test-classes/com/pandawork/test/UserServiceTest.class" afterPath="$PROJECT_DIR$/web/target/test-classes/com/pandawork/test/UserServiceTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/newframework-service.iml" afterPath="$PROJECT_DIR$/service/newframework-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Article.java" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/User.java" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/utils/NFException.java" afterPath="$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/utils/NFException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/service/com/pandawork/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/service/com/pandawork/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/ArticleMapper.xml" afterPath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/ArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/service/src/main/resources/com/pandawork/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/com/pandawork/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/service/target/classes/com/pandawork/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/test-classes/com/pandawork/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/service/target/test-classes/com/pandawork/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/newframework-web.iml" afterPath="$PROJECT_DIR$/web/newframework-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/test/com/pandawork/test/UserServiceTest.java" afterPath="$PROJECT_DIR$/web/src/test/com/pandawork/test/UserServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleDetail.java" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleDetailMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Discuss.java" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/DiscussMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Myself.java" afterPath="$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/MyselfMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,8 +40,8 @@
       <file leaf-file-name="NFException.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/utils/NFException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="528">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -258,6 +242,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,7 +1057,7 @@
       <workItem from="1491735729862" duration="554000" />
       <workItem from="1491736737724" duration="75000" />
       <workItem from="1492074799334" duration="5425000" />
-      <workItem from="1492154617457" duration="5000" />
+      <workItem from="1492154617457" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 0.05">
       <created>1491740777555</created>
@@ -1074,7 +1066,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491740777555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="陶永攀">
+      <created>1492154649641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492154649641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1110,11 +1109,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63734000" />
+    <option name="totallyTimeSpent" value="63884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1138,7 +1137,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8692737" sideWeight="0.495685" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.48979592" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18002136" sideWeight="0.48979592" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1200,7 +1199,8 @@
     <MESSAGE value="Ver 0.03" />
     <MESSAGE value="Ver 0.04" />
     <MESSAGE value="Ver 0.05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 0.05" />
+    <MESSAGE value="陶永攀" />
+    <option name="LAST_COMMIT_MESSAGE" value="陶永攀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,6 +1350,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <marker date="1492076668072" expanded="true" signature="249:461" ph="INSERT INTO t_article... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1365,6 +1368,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <marker date="1492076867782" expanded="true" signature="245:416" ph="INSERT INTO t_user... " />
+            <marker date="1492076867782" expanded="true" signature="465:512" ph="DELETE FROM " />
+            <marker date="1492076867782" expanded="true" signature="560:836" ph="UPDATE `t_us... " />
+            <marker date="1492076867782" expanded="true" signature="907:964" ph="SELECT * FRO... t_user" />
+            <marker date="1492076867782" expanded="true" signature="1037:1106" ph="SELECT * FRO... t_user" />
+            <marker date="1492076867782" expanded="true" signature="1175:1243" ph="SELECT `id`,... t_user" />
+            <marker date="1492076867782" expanded="true" signature="1310:1347" ph="SELECT COUNT... t_user" />
+            <marker date="1492076867782" expanded="true" signature="1423:1527" ph="SELECT `id`,... t_user" />
+            <marker date="1492076867782" expanded="true" signature="1609:1704" ph="SELECT * FRO... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,7 +1559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleDetail.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/ArticleDetailMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -1553,7 +1567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Discuss.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/DiscussMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -1569,7 +1583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/Myself.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/mapper/com/pandawork/mapper/MyselfMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
@@ -1628,8 +1642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/common/com/pandawork/common/utils/NFException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
