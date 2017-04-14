@@ -5,7 +5,7 @@
 <mapper namespace="com.pandawork.mapper.UserMapper">
     <insert id="newUser">
           INSERT INTO t_user(username,password,password1,is_admin,available)
-          VALUES (#{user.username},#{user.password},#{user.password1},#{user.isadmin},#{user.available})
+          VALUES (#{user.userName},#{user.passWord},#{user.passWord1},#{user.isAdmin},#{user.available})
     </insert>
     <delete id="delById">
         DELETE FROM `t_user`
@@ -14,10 +14,10 @@
     <update id="update">
         UPDATE `t_user`
         SET
-            `username` = #{user.username},
-            `password` = #{user.password},
-            `password1` = #{user.password1},
-            `is_admin` = #{user.isadmin},
+            `username` = #{user.userWame},
+            `password` = #{user.passWord},
+            `password1` = #{user.passWord1},
+            `is_admin` = #{user.isAdmin},
             `available` = #{user.available}
         WHERE `id` = #{user.id}
     </update>
@@ -29,7 +29,7 @@
     <select id="queryByName" resultMap="pw.User">
         SELECT *
         FROM `t_user`
-        WHERE `username` = #{username}
+        WHERE `username` = #{userName}
     </select>
     <select id="listAll" resultMap="pw.User">
         SELECT  `id`,`username`,`is_admin`,`available`
@@ -42,7 +42,7 @@
     <select id="queryByIsAdmin" resultMap="pw.User">
         SELECT `id`,`username`,`password`,`is_admin`
         FROM `t_user`
-        WHERE `is_admin` = #{isadmin}
+        WHERE `is_admin` = #{isAdmin}
     </select>
     
     <select id="queryUserByPage" resultMap="pw.User">

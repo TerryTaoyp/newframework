@@ -2,6 +2,7 @@ package com.pandawork.common.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -12,15 +13,16 @@ import javax.persistence.Table;
 @Entity
 public class Article {
 
+    @Id
     private int id;
     @Column(name = "user_id")
-    private int userid;
+    private int userId;
     @Column(name = "plate_id")
-    private int plateid;
+    private int plateId;
     @Column(name = "forum_id")
-    private int forumid;
+    private int forumId;
     @Column(name = "article_id")
-    private int articleid;
+    private int articleId;
 
     public int getId() {
         return id;
@@ -30,35 +32,35 @@ public class Article {
         this.id = id;
     }
 
-    public int getUserid() {
-        return userid;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUserid(int userid) {
-        this.userid = userid;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public int getPlateid() {
-        return plateid;
+    public int getPlateId() {
+        return plateId;
     }
 
-    public void setPlateid(int plateid) {
-        this.plateid = plateid;
+    public void setPlateId(int plateId) {
+        this.plateId = plateId;
     }
 
-    public int getForumid() {
-        return forumid;
+    public int getForumId() {
+        return forumId;
     }
 
-    public void setForumid(int forumid) {
-        this.forumid = forumid;
+    public void setForumId(int forumId) {
+        this.forumId = forumId;
     }
 
-    public int getArticleid() {
-        return articleid;
+    public int getArticleId() {
+        return articleId;
     }
 
-    public void setArticleid(int articleid) {
-        this.articleid = articleid;
+    public void setArticleId(int articleId) {
+        this.articleId = articleId;
     }
 }

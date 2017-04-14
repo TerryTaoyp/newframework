@@ -9,9 +9,8 @@ import com.pandawork.core.common.exception.IBizExceptionMes;
  * @time: 2015/3/24 16:55
  */
 public enum  NFException implements IBizExceptionMes {
+
     SystemException("系统内部异常", 1),
-
-
 
     UnameNotNull("用户名不能为空",10001),
     UpwdNotNull("密码不能为空",10002),
@@ -23,6 +22,8 @@ public enum  NFException implements IBizExceptionMes {
     QueryUserByName("根据用户名查找失败",10008),
     ListAll("列出所有用户失败",10009),
     CountAll("对所有用户计数失败",10010)
+
+
 
     ;
 

@@ -41,9 +41,9 @@ public class UserServiceImpl implements UserService {
         {
             return;
         }
-        Assert.isNotNull(user.getUsername(), NFException.UnameNotNull);
-        Assert.isNotNull(user.getPassword(),NFException.UpwdNotNull);
-        Assert.isNotNull(user.getPassword1(),NFException.Upwd1NotNull);
+        Assert.isNotNull(user.getUserName(), NFException.UnameNotNull);
+        Assert.isNotNull(user.getPassWord(),NFException.UpwdNotNull);
+        Assert.isNotNull(user.getPassWord1(),NFException.Upwd1NotNull);
         try{
 //            if(userMapper.queryByName(user.getUsername())==null)
 //            {
@@ -51,8 +51,8 @@ public class UserServiceImpl implements UserService {
 //            }else if(user.getPassword()!=user.getPassword1()){
 //                return;
 //            }else{
-                user.setPassword(CommonUtil.md5(user.getPassword()));
-                user.setPassword1(CommonUtil.md5(user.getPassword1()));
+                user.setPassWord(CommonUtil.md5(user.getPassWord()));
+                user.setPassWord1(CommonUtil.md5(user.getPassWord1()));
                 userMapper.newUser(user);
 //            }
         }catch (Exception e) {
@@ -94,9 +94,9 @@ public class UserServiceImpl implements UserService {
         {
             return;
         }
-        Assert.isNotNull(user.getUsername(), NFException.UnameNotNull);
-        Assert.isNotNull(user.getPassword(),NFException.UpwdNotNull);
-        Assert.isNotNull(user.getPassword1(),NFException.Upwd1NotNull);
+        Assert.isNotNull(user.getUserName(), NFException.UnameNotNull);
+        Assert.isNotNull(user.getPassWord(),NFException.UpwdNotNull);
+        Assert.isNotNull(user.getPassWord1(),NFException.Upwd1NotNull);
         try{
             userMapper.update(user);
         }catch (Exception e){

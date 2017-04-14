@@ -21,10 +21,10 @@ public class UserServiceTest extends AbstractTestCase {
     @Test
     public void testNewUser() throws SSException{
         User user = new User();
-        user.setUsername("tao4");
-        user.setPassword("123456");
-        user.setPassword1("123456");
-        user.setIsadmin(0);
+        user.setUserName("taoyp");
+        user.setPassWord("123456");
+        user.setPassWord1("123456");
+        user.setIsAdmin(0);
         user.setAvailable(1);
         userService.newUser(user);
     }
@@ -46,10 +46,10 @@ public class UserServiceTest extends AbstractTestCase {
     public void testUpdateUser()throws SSException{
         User user = new User();
         user.setId(2);
-        user.setUsername("tao4");
-        user.setPassword("123456");
-        user.setPassword1("123456");
-        user.setIsadmin(0);
+        user.setUserName("tao4");
+        user.setPassWord("123456");
+        user.setPassWord1("123456");
+        user.setIsAdmin(0);
         user.setAvailable(1);
         userService.UpdateUser(user);
     }
