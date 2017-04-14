@@ -21,8 +21,8 @@ public class Article {
     private int plateId;
     @Column(name = "forum_id")
     private int forumId;
-    @Column(name = "article_id")
-    private int articleId;
+    @Column(name = "article_title")
+    private int articleTitle;
 
     public int getId() {
         return id;
@@ -56,11 +56,11 @@ public class Article {
         this.forumId = forumId;
     }
 
-    public int getArticleId() {
-        return articleId;
+    public int getArticleTitle() {
+        return articleTitle;
     }
 
-    public void setArticleId(int articleId) {
-        this.articleId = articleId;
+    public void setArticleTitle(int articleTitle) {
+        this.articleTitle = articleTitle;
     }
 }

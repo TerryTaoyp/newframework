@@ -5,13 +5,13 @@
 <mapper namespace="com.pandawork.mapper.ArticleMapper">
     <insert id="newArticle">
         INSERT INTO t_article(
-        user_id,plate_id,forum_id,article
+        user_id,plate_id,forum_id,article_title
         )
         VALUES (
         #{aticle.userId},
         #{article.plateId},
         #{article.forumId},
-        #{article.articleId}
+        #{article.articleTitle}
         )
     </insert>
 
